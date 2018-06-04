@@ -8,7 +8,7 @@
 ```shell
 source /www/sentry/bin/activate
 
-pip install -e git+https://github.com/kolapapa/sentry_im.git#egg=sentry_btalk
+pip install -e git+https://github.com/kolapapa/sentry_im.git#egg=sentry_im
 
 supervisorctl restart all
 ```
